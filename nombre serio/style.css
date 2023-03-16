@@ -1,0 +1,37 @@
+html, body {
+font-family: 'Fredoka One', cursive;
+  margin: 0;
+  padding: 0;
+    background:rgb(250,200,200)
+}
+canvas {
+  display: block;
+}
+
+nav{
+    padding:1rem;
+}
+a{
+    text-decoration: none;
+}
+a#noautorizo{
+  font-weight:bold;
+  
+  background:grey;
+  color:white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+    box-shadow: 1px 1px 30px grey;
+    padding:1rem 2rem;
+    border-radius: 5px;
+}
+a#noautorizo:hover{
+    background:pink;
+    color:grey;
+    transition:all ease 1s;
+    top:50%;
+    box-shadow:1px 1px 10px grey;
+}
